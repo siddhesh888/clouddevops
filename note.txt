@@ -1,2 +1,1 @@
-Cloud and Devops details file
-
+hello this is cloud devops repository
