@@ -25,7 +25,7 @@ node {
 		
     stage('Build Docker Image') {
       // build docker image
-      dockerImage = docker.build("devopsexample:${env.BUILD_NUMBER}")
+      dockerImage = sudo docker.build("devopsexample:${env.BUILD_NUMBER}")
     }
    	  
     stage('Deploy Docker Image and login'){
